@@ -300,7 +300,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+-webkit-appearance: button; /* 2 */
 }
 
 /**
@@ -417,3 +417,149 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+/* Estilos generales */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+ 
+}
+
+header {
+  background-image: linear-gradient(rgba(248, 248, 248, 0.5),rgba(16, 16, 17, 0.5)), url(../imagenes/bg.jpg);
+  background-color: #333;
+  color:white;
+  padding: 20px 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  text-align: right; 
+}
+
+.menu a {
+  
+  margin-left: 20px; 
+  color: red; 
+  text-decoration: none; 
+}
+
+.nombre {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.profesion {
+  font-size: 24px;
+  margin: 0;
+}
+
+.acerca-de {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.acerca-de .texto {
+  text-align: center;
+  line-height: 1.6;
+  
+}
+
+.acerca-de .bold {
+  font-weight: bold;
+}
+
+.trabajos {
+  padding: 50px 0;
+}
+
+.trabajos .titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contenedor-trabajos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.trabajo {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+footer {
+  background-color:coral;   
+  color: black;
+  padding: 50px 0;
+}
+
+.contacto .titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.formulario input[type="submit"] {
+  background-color: #fff;
+  color:aqua;
+  cursor: pointer;
+  border: none;
+}
+
+.redes-sociales {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.redes-sociales a {
+  color:blue;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.foto {
+  text-align: center; 
+}
+
+.foto img {
+  border-radius: 50%; 
+  width: 150px; 
+  height: 150px; 
+}
+
